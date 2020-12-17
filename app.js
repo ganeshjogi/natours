@@ -16,6 +16,7 @@ const userRouter = require(`${__dirname}/routes/userRoutes`);
 const reviewRouter = require(`${__dirname}/routes/reviewRoutes`);
 const bookingRouter = require(`${__dirname}/routes/bookingRoutes`);
 
+// Start express code
 const app = express();
 
 app.set('view engine', 'pug');
